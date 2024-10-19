@@ -1,0 +1,224 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styles */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+header .logo h1 {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 2.2em;
+    vertical-align: middle;
+}
+
+header .logo p {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px 15px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome-section h2 {
+    color: #007BFF;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.welcome-section .button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.welcome-section .button:hover {
+    background-color: #0056b3;
+}
+
+/* Featured Activities Section */
+.featured-activities {
+    margin-bottom: 40px;
+}
+
+.featured-activities h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.activity-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.activity-card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.activity-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.activity-card h4 {
+    margin: 15px 0 10px;
+    color: #007BFF;
+}
+
+.activity-card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.activity-card a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.activity-card a:hover {
+    text-decoration: underline;
+}
+
+/* Join Us Section */
+.join-us {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.join-us h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.join-us ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.join-us ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.join-us .button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.join-us .button:hover {
+    background-color: #0056b3;
+}
+
+/* Location and Contact Sections */
+#location, #contact {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#location h2, #contact h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
